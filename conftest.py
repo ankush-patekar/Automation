@@ -32,3 +32,4 @@ def login(browser, config):
     time.sleep(2)
     assert "dashboard" in browser.current_url.lower()
     yield browser
+
